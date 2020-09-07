@@ -2,7 +2,7 @@
 'RCET0265
 'Fall 2020
 'Simple Calculator
-'https://github.com/LuisTorres0419/SimpleCalculator.git
+'https://github.com/ochodieg?tab=repositories
 
 Option Strict On
 Option Explicit On
