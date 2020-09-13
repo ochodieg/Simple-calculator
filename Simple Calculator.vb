@@ -2,14 +2,15 @@
 'RCET0265
 'Fall 2020
 'Simple Calculator
-'https://github.com/ochodieg?tab=repositories
+'https://github.com/ochodieg/Simple-calculator.git
 
 Option Strict On
 Option Explicit On
 Option Compare Text
 
-
-Module Module1
+'File name should be PascalCase and not contain spaces - TJR
+'Remove empty lines
+Module SimpleCalculator ' Don't leave module dame as default - TJR
 
     Sub Main()
         Dim betterData As Boolean
@@ -76,8 +77,7 @@ Module Module1
                     Console.WriteLine("You entered: " & firstNumber & " * " & seconNumber & " that = " &
                                       firstNumber * seconNumber)
 
-                ElseIf userRespons <> "multiply" Or userRespons <> "*" Or userRespons <> "Add" Or userRespons <>
-                    "+" Then
+                Else 'else covers anything that didn't evaluate to true above - TJR
 
                     Console.WriteLine("no can do")
 
