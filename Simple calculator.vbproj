@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{80B7BFD2-40F6-42B4-AF7C-63ED74E088B4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>Simple_calculator.Module1</StartupObject>
+    <StartupObject>Simple_calculator.SimpleCalculator</StartupObject>
     <RootNamespace>Simple_calculator</RootNamespace>
     <AssemblyName>Simple calculator</AssemblyName>
     <FileAlignment>512</FileAlignment>
